@@ -1,0 +1,351 @@
+@media only screen and (max-width: 768px) {
+  .main-header-container {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+  }
+
+  .logo-div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    width: 60%;
+    height: 10vh;
+  }
+  .logo-div img {
+    width: 180px;
+    height: 40px;
+  }
+  .action-div {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    color: white;
+  }
+  #icon-action {
+    width: 40%;
+    margin-right: 20px;
+    color: white;
+  }
+  .action-icons {
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .main-header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    z-index: 20;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    max-width: 100%;
+  }
+  .head {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+  }
+  .manu-body {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .inner-sub {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+  }
+  .inner-sub h3 {
+    font-size: 17px;
+    margin: 10px 15px;
+    font-weight: 700;
+  }
+  .navbar-main-ul {
+    position: static;
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .navbar-main-li {
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .navbar-main-sub {
+    list-style: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: none;
+    margin: 10px 0;
+  }
+  .navbar-main-li:hover .navbar-main-sub {
+    display: block;
+  }
+  .navbar-main-sub-navigations {
+    margin: 10px 0;
+  }
+  .navbar-main-sub-navigations-li {
+    margin: 10px 0;
+    list-style: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: none;
+  }
+  .navbar-main-sub:hover .navbar-main-sub-navigations-li {
+    display: block;
+  }
+  .hr-line {
+    margin: 0 auto;
+    height: 1px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+  }
+  .action-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .action-inne {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .last-elemnt {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .last-elemnt h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .last-elemnt h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /*footer styles*/
+  .footer-container {
+    min-width: 95%;
+    margin-bottom: 30px;
+  }
+  .pre-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .top-image {
+    margin-top: -10%;
+  }
+
+  .sub-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .componant1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .componant1 h2 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .componant1 h6 {
+    margin: 8px 0;
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer-bottom-container {
+    display: none;
+  }
+  #comp3 {
+    width: 100%;
+  }
+  #mailbox {
+    width: 100%;
+  }
+  .condition h6 {
+    margin: 0;
+    padding: 0;
+  }
+  .booknow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #876a20;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    z-index: 20;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1251px) {
+  .carousal_item_sub {
+    height: 60%;
+    position: relative;
+  }
+  .carousal-img {
+    height: 60vh;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 80%;
+  }
+
+  .logo-container {
+    display: flex;
+    width: 25%;
+  }
+  .option-container {
+    display: flex;
+    width: 75%;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+  }
+  .option-ul {
+    display: flex;
+    font-size: 15px;
+  }
+  .navbar-ul {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+  }
+  .navbar-li-style {
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  .find-button {
+    padding: 4px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .booking-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 75px;
+    width: 90%;
+    background-color: #ffffff7a;
+    z-index: 10;
+    padding: 7px;
+  }
+  .booking1 {
+    width: 40%;
+    background-color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .date-input {
+    padding: 2px;
+    width: 25px;
+  }
+  .booking2 {
+    font-size: 14px;
+  }
+  .booking3 {
+    width: 25%;
+    background-color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .input-code {
+    width: 80%;
+  }
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    padding: 20px;
+    height: 75%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 500;
+    color: #876a20;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    line-height: 35px;
+  }
+  .content h6 {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .discover {
+    width: 150px;
+    color: #fff;
+    background-color: #876a20;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+}
